@@ -1,0 +1,28 @@
+= pundit_permissions_dsl
+
+* {Homepage}[https://github.com/supernullset/pundit_permissions_dsl#readme]
+* {Issues}[https://github.com/supernullset/pundit_permissions_dsl/issues]
+* {Documentation}[http://rubydoc.info/gems/pundit_permissions_dsl/frames]
+* {Email}[mailto:no.email]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'pundit_permissions_dsl'
+
+== Requirements
+
+== Install
+
+  $ gem install pundit_permissions_dsl
+
+== Copyright
+
+Copyright (c) 2013 user
+
+See LICENSE.txt for details.
