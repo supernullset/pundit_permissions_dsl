@@ -28,3 +28,14 @@ RDoc::Task.new do |rdoc|
   rdoc.title = "pundit_permissions_dsl"
 end
 task :doc => :rdoc
+
+require "rake/testtask"
+
+task default: [:test]
+
+Rake::TestTask.new(:test) do |t|
+  t.libs << "lib"
+  t.libs << "test"
+  t.pattern = "test/**/*_test.rb"
+  t.verbose = false
+end

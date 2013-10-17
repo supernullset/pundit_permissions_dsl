@@ -1,0 +1,2 @@
+module PunditPermissionsDSL
+end

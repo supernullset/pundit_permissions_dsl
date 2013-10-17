@@ -1,4 +1,1 @@
-Gemfile.lock
-html/
-pkg/
-vendor/cache/*.gem
+.bundle

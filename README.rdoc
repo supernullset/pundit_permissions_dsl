@@ -7,15 +7,29 @@
 
 == Description
 
-TODO: Description
+Pundit Permissions DSL allows you to create policies on a model by model basis
+which allow roles to be defines at the route level.
 
 == Features
 
 == Examples
 
-  require 'pundit_permissions_dsl'
+```ruby
+UserPolicy = Struct.new(:user, :model) do
+  extend AuthorizationDSL
+
+  authorize do
+    actions :default
+    role :admin, :any
+    role :publisher, :index, :show
+  end
+
+end
+```
 
 == Requirements
+
+This gem requires pundit (TODO: Version number)
 
 == Install
 
