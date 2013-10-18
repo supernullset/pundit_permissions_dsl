@@ -22,6 +22,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rdoc', '~> 3.0'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
   gem.add_development_dependency 'rails', '~> 4.0.0'
+  gem.add_development_dependency 'sqlite3', '~> 1.3.8'
 
   gem.add_runtime_dependency 'pundit', '~> 0.2.1'
 end
